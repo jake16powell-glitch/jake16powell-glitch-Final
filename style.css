@@ -1,0 +1,219 @@
+/* COLORS (in order from lightest to darkest):
+ FROSTED BLUE: #89D2DC
+ SLATE BLUE: #6564DB
+ BRIGHT INDIGO: #232ED1
+ PRUSSIAN BLUE: #101D42
+ INK BLACK: #0D1317
+
+
+ FONTS:
+Titles: "Century Gothic", Helvetica, sans-serif
+Paragraphs: Georgia, 'Times New Roman', Times, serif
+*/
+
+body {
+    background-color: #101D42;
+    color: white;
+}
+/*************HEADER***************/
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background: #89D2DC;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    border-radius: 10px;
+}
+#logo {
+    height: 200px;
+    width: 200px;
+    grid-column: 1/2;
+    border: 3px solid white;
+    border-radius: 20%;
+}
+.class-name {
+    grid-column: 2/3;
+    margin: auto;
+    font-size:4em;
+    color: #0D1317;
+}
+
+/********* NAVIGATION *********/
+nav {
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    font-size: 1.5em;
+    background: #6564DB;
+    height: 100px;
+    align-items: center;
+    border-radius: 15px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: auto;
+    padding: 35px;
+}
+nav a {
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    padding: 36px 50px;
+    
+}
+nav a:hover {
+    color: black;
+    background: #89D2DC;
+}
+
+/**********MAIN************/
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #101D42;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    font-family: "Century Gothic", Helvetica, sans-serif;
+}
+.wwr {
+    grid-column: 1/2;
+    margin: 10px;
+    text-align: center;
+    background: #232ED1;
+    border-radius: 15px;
+    padding: 15px;
+}
+.wwr ul {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 30px;
+
+}
+.ice {
+    grid-column: 2/3;
+    margin: 10px;
+    text-align: center;
+    background: #232ED1;
+    border-radius: 15px;
+    padding: 15px;
+}
+main li {
+    padding: 10px;
+}
+.ice ul {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 30px;
+}
+.about-me {
+    grid-column: 3/4;
+    margin: 10px;
+    text-align: center;
+    background: #232ED1;
+    border-radius: 15px;
+    padding: 10px;
+}
+#about-me-table {
+    justify-self: center;
+}
+#about-me-table tr th {
+    padding: 0px 30px;
+}
+#about-me-table tr td a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+#about-me-table tr td a:hover {
+    color: black;
+    background: #89D2DC;
+}
+/* IMAGE PROPERTIES */
+#img-wwr {
+    width: 270px;
+    margin-top: 5px;
+    border: 3px solid white;
+    border-radius: 50%;
+
+}
+#img-me {
+    width: 270px;
+    margin-top: 5px;
+    border: 3px solid white;
+
+}
+#img-ice {
+    height: 270px;
+    margin-top: 5px;
+    border: 3px solid black;
+
+}
+
+/*WEB DEVELOPMENT SECTION*/
+.web-dev {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 100px 100px 100px;
+    margin-top: 50px;
+}
+#web-dev-i {
+    height: 100%;
+    width: 100%;
+    grid-column: 4/5;
+    grid-row: 1/4;
+    border: 10px solid white;
+    border-radius: 3px;
+}
+#web-dev-t {
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-size: 3em;
+    align-self: center;
+    justify-self: center;
+}
+#web-dev-p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    font-size: large;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    background: #89D2DC;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 20px;
+    align-items: center;
+    color: black;
+}
+#contact-f {
+    text-decoration: none;
+    color: black;
+    padding: 44px 30px;
+
+}
+#contact-f:hover {
+    background: #38939f;
+    color:white;
+}
+#fb {
+    padding: 15px;
+}
+#tw {
+    padding: 15px;
+}
+#inst {
+    padding: 15px;
+}

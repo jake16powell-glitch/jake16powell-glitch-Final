@@ -1,0 +1,71 @@
+/* Add your CSS here to style your valentines day page */
+/*
+Author: Jake Powell
+Class: WDD 130
+Date: 11 FEB 2026
+citations:
+{0}
+{1}: VS CODE
+*/
+/**************** body************/
+
+body {
+    background-color: purple;
+    color: pink;
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+}
+/**************** wrapper************/
+#wrapper {
+    color: pink;
+}
+/****************header************/
+header {
+    color: red;
+    background-color: pink;
+    border: 1px solid rgb(203, 17, 220);
+}
+/****************nav************/
+nav {
+    border: 0px solid black; /*does nothing*/
+}
+/****************ul & li************/
+ul {
+    columns: 4;
+    column-gap: 30px;
+}
+li {
+    list-style: none;
+}
+/****************main************/
+main{
+    background-color: rgb(161, 20, 43);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/****************h1************/
+h1 {
+    color: pink;
+    grid-column: 1/4;
+}
+/****************image************/
+img {
+    width: 30%;
+    grid-column: 1/4;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+/****************sections************/
+section {
+    background-color: white;
+    color: hotpink;
+    border: 4px solid rgb(104, 3, 3);
+    padding: 5%;
+    border-radius: 5%;
+    margin: 3%;
+}
+/****************footer************/
+footer {
+    background-color:rgb(183, 11, 183);
+
+}

@@ -1,0 +1,67 @@
+body {
+    background: rgb(120, 96, 64);
+    font-family:'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#formContainer {
+    border: 5px solid blue;
+    border-radius: 10px;
+    width: 80%;
+    grid-column: 2/3;
+    position: relative;
+    justify-content: center;
+}
+div h1, h2 {
+    color: white;
+
+}
+#title {
+    background-image: url(images/jesus_feeds_5000.jpeg);
+    background-size: 100%;
+    text-align: center;
+    height: 200px;
+}
+#myForm {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#myForm h3 {
+    text-align: center;
+    grid-column: 1/3;
+}
+#subscribe {
+    grid-column: 1/3;
+    text-align: center;
+}
+#conditions {
+    grid-column: 1/3;
+    text-align: center;
+}
+#myForm label {
+    margin: 10px;
+}
+#myForm input {
+    margin: 10px;
+}
+#closeBtn {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+#submit {
+    grid-column: 1/3;
+    text-align: center;
+}
+#scriptures {
+    margin-top: 10px;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+#scriptures img {
+    width: 80px;
+}
